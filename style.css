@@ -154,6 +154,10 @@ nav a{
         height: 100%;
         
     }
+    .headingText{
+        width: 100%;
+        left: 0;
+    }
     .headingText p{
         font-size: 1.5rem;
     }
