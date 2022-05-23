@@ -126,7 +126,47 @@ footer{
     height: 4rem;
 }
 
+.workTitle{
+    padding-top: 4rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.mainContent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 14.5rem;
+    padding-top: 4rem;
+    
+}
+.mainContent img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.imageOne:hover{
+    transform: translateZ(10px) 
+    rotateX(20deg) rotateY(30deg);
+    transition: 0.5s;
+    
+}
+.imageTwo:hover{
+    transform: translateZ(10px) 
+    rotateX(20deg) rotateY(30deg);
+    transition: 0.5s; 
+}
 
+
+.workOne p{
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+.workTwo p{
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
 
 
 @media(max-width:768px){
@@ -180,4 +220,9 @@ footer{
     .logo{
         font-size: 1.5rem;
     }
+    .mainContent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
 }
