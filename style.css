@@ -37,7 +37,7 @@ nav a{
     font-size: 1rem;
     padding: 0.5rem ;
     border: none;
-    background-color: rgba(26, 34, 68, 0.438);
+    background-color: rgba(127, 148, 244, 0.438);
     color: white;
     border-radius: 0.3rem;
     cursor: pointer;
@@ -62,13 +62,14 @@ nav a{
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 .headingText{
     text-align: center;
     padding-top: 5rem;
-   
-    color: rgb(0, 20, 13);
+    
+    
+    color: rgb(54, 185, 139);
 }
 .headingText p{
     font-size: 2rem;
@@ -110,14 +111,15 @@ nav a{
     cursor: pointer;
 }
 .mailBtn:hover{
-    background-color: blue;
-    transition: 0.3s;
+    background-color: rgb(54, 54, 118);
+    transition: 0.5s;
 }
 footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 1.2rem;
+    color: white;
     padding-top: 2rem;
 }
 .footerLogo img{
@@ -128,6 +130,7 @@ footer{
     padding-top: 4rem;
     font-size: 2rem;
     text-align: center;
+    color: rgb(54, 185, 139);;
 }
 .mainContent{
     display: grid;
@@ -164,9 +167,6 @@ footer{
     color: white;
     padding-top: 1rem;
     font-size: 1.5rem;
-}
-.unifeed{
-    color:red;
 }
 
 
