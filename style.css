@@ -134,6 +134,7 @@ nav a{
     .navMenu{
         position:absolute;
         z-index: 100;
+        
         left: -100%;
         top: 7rem;
         gap: 0;
