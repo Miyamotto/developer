@@ -170,3 +170,8 @@ nav a{
         font-size: 1.5rem;
     }
 }
+@media(max-width:768px){
+    .wrapper{
+        height: 100vh;
+    }
+}
